@@ -19,7 +19,7 @@ public class Employees_Chapter04 {
 					"root",
 					"Kazoku1268!"
 					);
-			System.out.println("データベースに接続成功");
+			System.out.println("データベースに接続成功:" + con);
 			
 			//SQLクエリを準備
 			statement = con.createStatement();
